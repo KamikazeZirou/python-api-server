@@ -33,5 +33,5 @@ def make_authorized_get_request(endpoint, audience):
 if __name__ == '__main__':
     if len(sys.argv) < 1:
         raise SystemExit
-
+    # test
     print(get_authorized(sys.argv[1]))
